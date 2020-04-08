@@ -37,7 +37,7 @@ Customer Success Account Health Score represents the overall health of a Matterm
 * **Account Has Open Opportunity w/ Renewal Risk Status = 'Early Warning'**
   * Account Health Score = 50%
   
-* **_Note - If account has open opportunity w/renewal risk status of At Risk or Early Warning, it will override all other Healthscore metrics._
+* **_Note - If account has open opportunity w/renewal risk status of At Risk or Early Warning, it will override all other Healthscore metrics._**
 
 * **Account Has No Open Opportunity w/ Renewal Risk Status = 'At Risk or 'Early Warning'**
   * _**Account Health Score = Tenure Score + License End Score + Ticket Score + Task Score**_
@@ -290,6 +290,12 @@ Net Promoter Score is a standardized measure used by many organizations to measu
 * L2 - 8 hours
 * L3 - 24 hours
 * L4 - 24 hours
+
+**CSAT**
+
+CSAT stands for _Customer Satisfaction Rating_. 24 hours after the ticket is set to closed, the end-user receives an email asking them to rate their experience.  In the email the end-user is presented with the question "How would you rate the support you received?"  Below the question is the option to select "Good, I'm satisfied" or "Bad, I'm unsatisfied" with the option to leave a comment about their experience.""
+
+% rating forumal: Good, I'm Satisfied / Good I'm Satisfied + Bad I'm Unsatisfied
 
 ## TEDAS
 
